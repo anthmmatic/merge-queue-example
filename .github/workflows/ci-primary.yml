@@ -1,0 +1,12 @@
+name: CI One
+
+on:
+  #push:
+  #pull_request:
+  workflow_dispatch:
+
+jobs:
+  ci-one-job-one:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Complete"
