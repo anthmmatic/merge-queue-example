@@ -2,6 +2,7 @@ name: CI One
 
 on:
   merge_group:
+  pull_request:
   workflow_dispatch:
 
 jobs:
