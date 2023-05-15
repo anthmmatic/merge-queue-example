@@ -1,0 +1,12 @@
+name: WF Two
+
+on:
+  #push:
+  #pull_request:
+  workflow_dispatch:
+
+jobs:
+  wf-two-job-one:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Finished"
